@@ -1,0 +1,249 @@
+
+body
+{
+    font-family:'Montserrat',sans-serif;
+}
+.all{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.main-section
+{
+    margin-right: 260px;
+}
+.suptitle-info
+{
+    font-size: 14px;
+    margin-top: 80px;
+    margin-bottom: 8px;
+    line-height: 17px;
+    margin-left: 25px;
+}
+.title-info
+{
+    font-size: 45px;
+    margin-top: 0;
+    line-height: 55px;
+    margin-left: 25px;
+}
+.text-info
+{
+    font-size: 14px;
+    color: #595959;
+    line-height: 24px;
+    margin-left: 25px;
+}
+.projects-title
+{
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 25px;
+}
+.projects-tech
+{
+    color: #595959;
+}
+.projects-point
+{
+    color: #000;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 24px;
+    
+}
+
+.projects-link
+{
+    color: #005fff;
+}
+.work
+{
+    margin-bottom: 40px;
+}
+.work-title
+{
+    margin-top: 40px;
+    margin-bottom: 8px;
+    line-height: 27px;
+    margin-left: 25px;
+}
+.company-subtitle
+{
+    color: #6d9bf5;
+}
+.company-title
+{
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    line-height: 20px;
+    margin-left: 25px;
+}
+.company-text
+{
+    font-size: 12px;
+    margin-top: 0;
+    font-weight: 300;
+    color: #a8a8a8;
+    line-height: 15px;
+    margin-left: 25px;
+}
+
+.company-list
+{
+    font-size: 14px;
+    color: #595959;
+    font-weight: 300;
+    line-height: 24px;
+}
+.education-title
+{
+    margin-bottom: 0;
+    line-height: 27px;
+    margin-left: 25px;
+}
+.education-subtitle
+{
+    margin-top: 8px;
+    color: #6d9bf5;
+    font-size: 16px;
+    margin-bottom: 8px;
+    line-height: 20px;
+    margin-left: 25px;
+}
+.education-manage
+{
+    font-size: 14px;
+    margin-top: 0;
+    line-height: 15px;
+    margin-left: 25px;
+}
+.education-text
+{
+   font-size: 12px;
+   color: #a8a8a8; 
+   font-weight: 300;
+   margin-left: 25px;
+}
+
+.aside-section
+{
+    background-color: #E0EBFE;
+    height: 1319px;
+    width: 370px;
+    margin-left: 260px;
+    margin-right: 80px;
+}
+.avatar
+{
+    margin-top: 40px;
+}
+.contacts-title
+{
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top: 40px;
+    line-height: 27px;
+}
+.contacts-links
+{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 0;  
+    line-height: 24px;
+}
+.contacts-link
+{
+    font-weight: 700;
+    line-height: 24px;
+}
+.contacts-phone
+{
+    text-decoration: none;
+    color: #000;  
+    line-height: 24px;
+}
+.tech-title
+{
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top: 40px;
+    line-height: 27px;
+}
+.tech-list
+{
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 20px;
+    line-height: 24px;
+}
+.soft-title
+{
+    font-size: 22px;
+    margin-left: 40px;
+    margin-top: 40px;
+    line-height: 27px;
+}
+.soft-list
+{
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 20px;
+    line-height: 24px;
+}
+@media(max-width:1680px)
+{
+    .text-info
+    {
+        width: 500px;
+    }
+    .company-list
+    {
+        margin-bottom: 10px;
+    }
+    .education-title
+    {
+        margin-top: 0;
+    }
+}
+@media(max-width:1280px)
+{
+    .text-info
+    {
+        width: 450px;
+        font-size: 12px;
+    }
+}
+@media(max-width:640px)
+{
+    .aside-section
+    {
+        width: 270px;
+        height: 1699px;
+        margin-left: 220px;
+    }
+    .avatar{
+        width: 270px;
+        height: 270px;
+        margin-left: 0px;
+    }
+    .contacts-links
+    {
+        font-size: 12px;
+    }
+    .projects-point{
+        font-size: 10px;
+    }
+    .main-section
+    {
+
+        margin-right: 300px;
+    }
+    .text-info
+    {
+        width: 200px;
+        font-size: 9px;
+    
+    }
+}
